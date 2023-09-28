@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Open+Sans:wght@300;500;700&family=Outfit:wght@300;400;600&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit";
+  text-decoration: none;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-nft {
+  width: 310px;
+  height: 290px;
+  border-radius: 12px;
+}
+
+.container {
+  width: 350px;
+  height: 500px;
+  background-color: hsl(216, 50%, 16%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 4px 4px 20px hsl(216, 50%, 16%);
+}
+
+.container2 {
+  margin: 0px 20px;
+}
+
+.title {
+  margin-top: 10px;
+}
+
+.sub-title {
+  color: hsl(215, 51%, 70%);
+  margin-top: 12px;
+}
+
+.info {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.info img {
+  margin-right: 5px;
+}
+
+.info span:first-of-type {
+  color: hsl(178, 100%, 50%);
+}
+
+hr {
+  margin-top: 12px;
+  border-color: hsla(0, 0%, 73%, 0.663);
+}
+
+.info2 {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.info2 p {
+  color: hsl(215, 51%, 70%);
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+.img-avatar {
+  width: 10%;
+}
+
+.attribution,
+.attribution a {
+  margin-top: 25px;
+  font-size: 15px;
+  text-align: center;
+  color: hsl(228, 45%, 44%);
+}
